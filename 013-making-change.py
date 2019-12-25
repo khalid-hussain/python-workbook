@@ -1,10 +1,10 @@
 # Coin counter variables
-CENTS_PER_TOONIE  = 200
-CENTS_PER_LOONIE  = 100
+CENTS_PER_TOONIE = 200
+CENTS_PER_LOONIE = 100
 CENTS_PER_QUARTER = 25
-CENTS_PER_DIME    = 10
-CENTS_PER_NICKEL  = 5
-CENTS_PER_PENNY   = 1
+CENTS_PER_DIME = 10
+CENTS_PER_NICKEL = 5
+CENTS_PER_PENNY = 1
 
 # Get amount of change in coins
 cents = int(input('Input amount: '))
