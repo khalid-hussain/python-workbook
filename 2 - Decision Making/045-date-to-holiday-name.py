@@ -6,6 +6,7 @@ if theDay == '1':
         print('New Year\'s Day')
     elif theMonth == 'July':
         print('Canada Day')
-
-if theDay == '25' and theMonth == 'December':
+elif theDay == '25' and theMonth == 'December':
     print('Christmas Day')
+else:
+    print('No holiday on that date.')
