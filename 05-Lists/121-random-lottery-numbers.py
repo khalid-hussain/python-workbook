@@ -9,6 +9,7 @@ def getSixRandomNumbers() -> list:
         if x not in theNumbers:
             theNumbers.append(x)
 
+    theNumbers.sort()
     return theNumbers
 
 
