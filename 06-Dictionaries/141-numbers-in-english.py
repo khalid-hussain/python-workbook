@@ -45,7 +45,9 @@ def returnNumInEng(sNum: int) -> str:
     else:
         theTen = d_Ones[int(sNum - (int(sNum / 100) * 100))]
         theOne = ''
-    NumInWords = '%s %s %s' % (theHundred.lower(), theTen.lower(), theOne.lower())
+    NumInWords = '%s %s %s' % (theHundred.lower(),
+                               theTen.lower(),
+                               theOne.lower())
     return NumInWords
 
 
